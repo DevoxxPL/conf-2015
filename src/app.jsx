@@ -82,7 +82,7 @@
 
     var app = React.render(<TalksContainer loadingTalks="true" key="devoxx-top-talks-container" />, document.getElementById('main'));
 
-    var TOP_TALKS_URL = 'http://vote.devoxx.pl/duk15/top/talks?limit=10';
+    var TOP_TALKS_URL = 'http://vote.devoxx.pl/dpl15/top/talks?limit=10';
 
     function render(data) {
         app.setProps({ loadingTalks: false, talks: data.talks});
